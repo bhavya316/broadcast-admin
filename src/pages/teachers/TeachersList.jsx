@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Table, TableHead, TableRow, TableCell, TableBody, Paper, Button } from "@mui/material";
 import { getTeachers, deleteTeacher } from "../../api/teacherApi";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://realtimes.rivoratech.com/";
 
 const Avatar = ({ src, name }) => (
   src

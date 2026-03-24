@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import api from "../../api/axios";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://realtimes.rivoratech.com/";
 
 const TYPE_COLORS = {
   image:    { bg: "#fff0f6", color: "#c2185b", label: "Image" },

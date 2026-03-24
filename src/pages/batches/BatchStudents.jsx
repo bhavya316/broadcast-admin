@@ -150,7 +150,7 @@ export default function BatchStudents() {
           {/* Currently enrolled */}
           <Box display="flex" alignItems="center" gap={2} mb={1}>
             {selectedBatchImage ? (
-              <img src={`http://localhost:5000/${selectedBatchImage}`} alt={selectedBatchName}
+              <img src={`https://realtimes.rivoratech.com/${selectedBatchImage}`} alt={selectedBatchName}
                 style={{ width: 48, height: 48, borderRadius: "50%", objectFit: "cover", border: "2px solid #e0e0e0" }} />
             ) : (
               <div style={{ width: 48, height: 48, borderRadius: "50%", background: "#f0f0f0", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 22 }}>👥</div>
